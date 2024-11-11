@@ -1,0 +1,114 @@
+* {}
+
+h1 {
+    color: aqua;
+    background-color: black;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+p {
+    color: blueviolet;
+}
+
+p {
+    background-color: beige;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero {
+    width: 300px;
+    height: 500px;
+    background-color: aqua;
+    background-image: url(../Images/360_F_274990113_ffVRBygLkLCZAATF9lWymzE6bItMVuH1.jpg);
+    text-align: end;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+header {
+    height: 70px;
+    width: 80%;
+    background: black;
+    margin: 0 auto;
+}
+li {
+    list-style: none;
+}
+a{
+text-decoration: none;
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    /* (box-sizing: border-box) etiqueta para q el contenedor padre no tenga deformidades sino q mantenga cierta altura y ancho */
+}
+
+.item-1 {
+    background-color: brown;
+    padding: 15px 20px 10px 20px;
+    /* es segun las agujas del reloj (top, right, bottom, left) */
+    /* 2 valores nada mas para: top-bottom y right-left */
+    margin: 20px 15px;
+    border: 4px solid skyblue;
+}
+
+.item-2 {
+    background-color: beige;
+}
+
+.item-3 {
+    background-color: aqua;
+}
+
+/*.ul {
+    position: relative;
+
+}
+
+.il {
+    display: inline;
+}*/
+
+
+.tarjeta{
+    width: 250px;
+    height: 180px;
+    background: grey;
+    margin: 80px 20px;
+    border-radius: 30px;
+
+    position: relative;
+}
+
+.img2{
+    width: 120%;
+    position: absolute;
+    top: -40px;
+    left: -8%;
+}
+
+.valor{
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    color: rebeccapurple;
+    font-weight: bold;
+}
+.numero{
+    background: #e87604;
+    position: absolute;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+    left: 90%;
+    top: -5%;
+}
